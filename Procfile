@@ -1,2 +1,1 @@
-release: python api/manage.py makemigrations && python api/manage.py migrate
-web: cd api && gunicorn api.wsgi --log-file -
+web: cd api && python manage.py makemigrations && python manage.py migrate && gunicorn api.wsgi --log-file -
