@@ -25,7 +25,7 @@ SECRET_KEY = '-%r-sz9octbmzxcy1eublof)*$dnta3f=m=xbrhn__h$_0i#1o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['appspider-example.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'appspider-example.herokuapp.com']
 
 
 # Application definition
