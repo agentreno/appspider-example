@@ -30,3 +30,6 @@ like `Authorization: Token <token>` for all API requests. Create a user by
 running Django's management command in the instance e.g. locally `docker exec
 -it <container> python manage.py createsuperuser --username=testuser
 --email=testemail`.
+
+There's a swagger definition at `/api/swagger.json` which is needed to instruct
+a DAST tool like AppSpider where to find API endpoints.
